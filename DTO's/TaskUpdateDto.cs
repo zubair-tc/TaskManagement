@@ -1,0 +1,11 @@
+﻿namespace TaskManagement.DTO_s
+{
+    public class TaskUpdateDto
+    {
+        public string Name { get; set; } = null!;
+        public string Description { get; set; } = null!;
+        public bool IsCompleted { get; set; }
+        public DateTime? DueDate { get; set; }
+        public int? Priority { get; set; }
+    }
+}
